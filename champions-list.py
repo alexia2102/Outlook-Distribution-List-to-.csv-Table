@@ -2,7 +2,7 @@ import win32com.client
 import re
 import csv
 
-DL_NAME = 'DL-Jama-Champions'
+DL_NAME = 'DL_NAME_here'
 outApp = win32com.client.gencache.EnsureDispatch("Outlook.Application")
 namespace = outApp.GetNamespace("MAPI")
 address_lists = namespace.AddressLists
